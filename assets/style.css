@@ -1,0 +1,136 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+    font-family: "Oswald", sans-serif;
+}
+header {
+    background-image: url('img/headerImg.png');  
+    background-size: cover; /* para cobrir toda a área do elemento */
+    background-repeat: no-repeat; /* para evitar repetição da imagem */
+    background-position: center; /* para centralizar a imagem */
+    height: 25vh;
+    display: flex;
+    padding: 0 5vw;
+    justify-content: space-between;
+    
+}
+.navWrap {
+    display: flex;
+    align-items: center;
+}
+header a {
+    text-decoration: none; /* Remove o sublinhado padrão */
+    color: #FFF; /* Mantém a cor padrão do texto */
+    font-size: 5vh;
+    text-transform: uppercase;
+    font-family: "Oswald", sans-serif;
+    padding: 0 10px;
+    text-shadow: -1px -1px 0 #000,  
+    3px -1px 0 #000,
+   -1px 1px 0 #000,
+    1px 1px 0 #000;
+    margin-bottom: 3vh;
+
+}
+  
+header img {
+    margin-top: 1vh;
+    height: 18vh;
+    
+}
+body {
+    background-image: url('img/bgGoya.png');  
+}
+.wrap {
+    padding-top: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60vw;
+    margin: auto;
+}
+.wrap p {
+    font-size: 5vh;
+    font-family: "Oswald", sans-serif;
+    color: #FFF;
+    margin-bottom: 20px;
+    
+    text-shadow: 2px 2px 4px rgba(1, 1, 1, 1); 
+}
+input {
+    width: 29vw;
+    font-size: 5vh;
+    border-radius: 10px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    margin-top: 3vh;
+}
+.botao {
+    height: 10vh;
+    width: 30vw;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    background-color: #45BF8E;
+    color: #FFF;
+    font-size: 7vh;
+    text-shadow: 2px 2px 4px rgba(1, 1, 1, 1); 
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.botao-pressionado {
+    height: 10vh;
+    width: 30vw;
+    border: 3px solid #ffffff;
+    border-radius: 10px;
+    background-color: #336350;
+    color: #FFF;
+    font-size: 7vh;
+    text-shadow: 2px 2px 4px rgba(1, 1, 1, 0.8);
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
